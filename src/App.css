@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 * {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
+}
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
 }
 .conteiner {
     display: flex;
@@ -14,6 +20,7 @@
     display: flex;
     font-size: 30px;
     font-weight: 700;
+    justify-content: center;
 
 }
 .painel {
@@ -28,7 +35,27 @@
     display: flex;
     justify-content: space-around;
 }
+.img {
+    border-radius: 20px;
+}
+.desc {
+    background-color: rgba(73, 73, 73, 0.288);
+    border-radius: 15px;
+    margin-top: 10px;
+}
 .cor {
     font-size: 14px;
-    padding-left: 25px;
+    padding-left: 24px;
+}
+.cor2 {
+    font-size: 14px;
+    padding-left: 26px;
+}
+.cor3 {
+    font-size: 14px;
+    padding-left: 20px;
+}
+.cor4 {
+    font-size: 14px;
+    padding-left: 14px;
 }

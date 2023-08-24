@@ -9,30 +9,39 @@ import './app.css'
 function App() {
   return (
     <> 
-    <h1 className='titulo'> Items mais vendidos</h1>
+    <body>
+     <h1 className='titulo'> Items mais vendidos</h1>
     <div className='conteiner'>
       <div className='painel'>
-        <img src={foto1} alt="foto1" />
+        <img className='img' src={foto1} alt="foto1" />
+        <div className='desc'>
         <h1 className='itemName'>Porshe Básica <span>R$ 35,00</span></h1> 
         <p className='cor'>Preto</p>
+        </div>
       </div> 
       <div className='painel'>
-        <img src={foto2} alt="foto2" />
+        <img className='img' src={foto2} alt="foto2" />
+        <div className='desc'>
         <h1 className='itemName'>Porshe Media <span>R$ 40,00</span></h1> 
-        <p className='cor'>Cinza</p>
+        <p className='cor2'>Cinza</p>
+        </div>
       </div> 
       <div className='painel'>
-        <img src={foto3} alt="foto3" />
+        <img className='img' src={foto3} alt="foto3" />
+        <div className='desc'>
         <h1 className='itemName'>Porshe Premium <span>R$ 45,00</span></h1> 
-        <p className='cor'>Preto</p>
+        <p className='cor3'>Preto</p>
+        </div>
       </div> 
       <div className='painel'>
-        <img src={foto4} alt="foto4" />
+        <img className='img' src={foto4} alt="foto4" />
+        <div className='desc'>
         <h1 className='itemName'>Porshe Premium Plus <span>R$ 55,00</span></h1> 
-        <p className='cor'>Azul</p>
+        <p className='cor4'>Azul</p>
+        </div>
       </div> 
-    </div>
-    
+    </div>  
+    </body>
     </>
   )
 }
